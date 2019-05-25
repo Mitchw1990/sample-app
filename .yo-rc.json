@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "SampleApp",
+    "packageName": "com.example",
+    "packageFolder": "com/example",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "N2ViNjZlNGNmYjhlYTZlZGEyMThlMTJiZDNlYWU3OGQxMWE3MTQzYWEyYjc0ZWE0MDFjMzNkNWU4ZWZjZTQ3MDJhMDM3NGE5MDY2NWE5ZmUzMTU1ZWFlMTU4M2RiZDU0NjJkMjUwMzI4ODU2ODk4MTViMGQyNzJkYTMwZGY5YjY=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "Mitchw1990",
+  "repository-name": "sample-app"
+}
